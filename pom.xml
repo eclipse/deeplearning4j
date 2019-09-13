@@ -866,6 +866,7 @@
             </activation>
             <properties>
                 <os.name>linux</os.name>
+                <os.lib.extension>so</os.lib.extension>
             </properties>
         </profile>
         <profile>
@@ -877,6 +878,7 @@
             </activation>
             <properties>
                 <os.name>macosx</os.name>
+                <os.lib.extension>dylib</os.lib.extension>
             </properties>
         </profile>
         <profile>
@@ -888,6 +890,7 @@
             </activation>
             <properties>
                 <os.name>windows</os.name>
+                <os.lib.extension>dll</os.lib.extension>
             </properties>
         </profile>
         <profile>
